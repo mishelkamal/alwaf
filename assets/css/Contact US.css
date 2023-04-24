@@ -94,7 +94,7 @@ header nav ul li a {
 #hero-image {
   height: 580px;
   padding-top: 1px;
-  background: #e8eced url('/assets/images/gt.jpg') no-repeat center;
+  background: #e8eced url('/assets/images/Contact.jpg') no-repeat center;
   
 }
 #hero-image h2 {
@@ -113,53 +113,38 @@ header nav ul li a {
   line-height: 50px;
   margin: 0 auto;
 }
-.button-1:hover {
-  background-color: #6c36b0;
-  color: #fff;
+.containermain {
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  justify-text: center
 }
-#secondary-content {
-  padding: 60px 0;
-  text-align: center;
-}
-#secondary-content article {
-  width: 460px;
-  height: 270px;
-  float: left;
-  background-color: #f5f5f5;
-}
-#secondary-content article:first-child {
-  margin-right: 20px;
-}
-#secondary-content article .overlay {
-  background: rgba(255, 255, 255, .95);
-  height: 230px;
-  width: 190px;
-  padding: 20px;
-}
-.gallery {
-  /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
- 
-  /* (B2) OPTIONAL WIDTH RESTRICT */
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-article h4 {
-  border-bottom: 1px solid #02b8dd;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   padding-bottom: 20px;
 }
-.more-link {
-  border: 1px solid #02b8dd;
-  color: #02b8dd;
-  padding: 6px 20px;
-  border-radius: 3px;
-}
-.more-link:hover {
+.button-1:hover {
   background-color: #02b8dd;
   color: #fff;
+}
+.container {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border: 1px solid #ccc;
+  
+  align-items: center;
+  justify-content: center
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: justify
 }
 #features ul {
   margin: 80px 0;
@@ -172,13 +157,13 @@ article h4 {
   text-align: center;
 }
 #features ul li.feature-1 {
-  background: url('/assets/images/features-icon-1.png') no-repeat top center;
+  background: url('/assets/images/phone.png') no-repeat top center;
 }
 #features ul li.feature-2 {
-  background: url('/assets/images/features-icon-2.png') no-repeat top center;
+  background: url('/assets/images/mail.png') no-repeat top center;
 }
 #features ul li.feature-3 {
-  background: url('/assets/images/features-icon-3.png') no-repeat top center;
+  background: url('/assets/images/whatsapp.png') no-repeat top center;
 }
 footer {
   padding: 60px 0;
@@ -197,7 +182,6 @@ footer {
   width: 150px;
   float: left;
   margin-left: 20px;
-  justify-items: center;
 }
 #footer-links ul li {
   margin: 10px 0;
